@@ -15,7 +15,8 @@ jobs:
     steps:
       - name: Lay ma nguon
         uses: actions/checkout@v4
-
+      - name: Giai nen Pro V5
+        run: unzip -o app/src/main/java/com/sotaynauan/app/SoTayNauAn_Pro_V5_DayDu.zip -d .
       - name: Cai Java 17
         uses: actions/setup-java@v4
         with:
